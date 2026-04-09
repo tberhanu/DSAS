@@ -1,0 +1,12 @@
+                    Coin Change Pattern ("dfs inside For Loop")
+1. Be comfortable to call recursive dfs() inside the For Loop.
+2. Be comfortable to use local variable initialized just before the For Loop, 
+   use it to collect the results of your interest and return it just after the For Loop.
+3. Don't over complicate it, just light drawing to understand the flow pattern, then just TRUST
+   your function fully and keep going forward.
+
+Note : Don't forget your Base Case(s), and Memoization of your results.
+
+Note: Most "incl vs nincl" could be generalized and written using Coin Change Pattern.
+
+Note: Coin Change Pattern maybe optimized via Bottom Up DP. Ex. # 518
