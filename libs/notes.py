@@ -68,3 +68,11 @@ l = [1, 2]
 l.append(3)
 l.extend([2, 3])
 print(l)  # [1, 2, 3, 2, 3]
+
+
+str.isupper() # O(N) returns True if all characters in the string are uppercase
+str.islower() # O(N) returns True if all characters in the string are lowercase
+str.isdigit() # O(N) returns True if all characters in the string are digits (Numbers only)
+str.isalpha() # O(N) returns True if all characters in the string are alphabetic (Letters only)
+str.isalnum() # O(N) returns True if all characters in the string are alphanumeric (Number or Letter)
+str.istitle() # O(N) returns True if the string is a titlecased string (uppercasefirst letter)
